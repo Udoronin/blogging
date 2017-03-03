@@ -10,8 +10,9 @@
     </small>
   </section>
   <section class="post-body">
-    <%= @post.body %>
-
+    <%= image_tag @post.image.url(:large), class: 'img-show' if @post.image? %>
+    <%= @post.body.html_safe %>
   </section>
-
 </article>
+
+<%= render 'disqus' %>

@@ -2,6 +2,9 @@ ru:
   common:
     errors: 'При заполнении формы возникли ошибки'
     back: 'Назад'
+  will_paginate:
+    previous_label: '&larr; Назад'
+    next_label: 'Вперед &rarr;'
   posts:
     index:
       title: 'Статьи'
@@ -12,3 +15,13 @@ ru:
     form:
       submit:
         '%{action} статью'
+  categories:
+      index:
+        title: 'Категории'
+      new:
+        title: 'Новая категория'
+      edit:
+        title: 'Редактирование категории'
+      form:
+        submit:
+                '%{action} статью'
